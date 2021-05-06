@@ -1,0 +1,63 @@
+/* Offer */
+
+.offer {
+  background: $color-five;
+}
+
+.our-services {
+  background: $color-five;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.our-services .services {
+  -ms-flex: 0 0 33.333%;
+  flex: 0 0 33.333%;
+  position: relative;
+  text-align: center;
+  background: $color-five;
+}
+
+.services i {
+  font-size: 40px;
+  background: $color-five;
+  width: 90px;
+  height: 90px;
+  color: $color-two;
+  line-height: 2.0;
+  border-color: $color-four;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.services i:hover {
+  font-size: 40px;
+  background: $color-one;
+  width: 90px;
+  height: 90px;
+  color: $color-two;
+  line-height: 2.0;
+  border-color: $color-four;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  transform: translateY(-15px);
+  box-shadow: 0 40px 40px 0 rgba(0,0,0,0.16);
+  transition: 0s;
+}
+
+.services .section-subtitle:hover {
+  transform: scale(1.2);
+  transition: 0s;
+}
+
+.services p {
+  color: $color-two;
+  margin: 25px;
+  text-align: justify;
+}
