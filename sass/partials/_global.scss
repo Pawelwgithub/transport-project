@@ -1,0 +1,94 @@
+/* Global */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: $color-one;
+  color: $color-two;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: $font-text;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+section {
+  padding: 55px 0;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 18px;
+  border-radius: 5px;
+  font-family: $font-text;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 3px;
+  border-style: solid;
+  background-color: $color-one;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+}
+
+.btn-one {
+  color: $color-one;
+  border-color: $color-one;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, transparent 50%, transparent 50%);
+  margin: 290px auto 0 auto;
+}
+
+.btn-one:hover {
+  color: $color-two;
+  border-color: $color-two;
+  background-color: $color-one;
+  background-position: 0 100%;
+}
+
+.section-title h1 {
+  font-size: 36px;
+  margin: 0 0 20px 0;
+  font-family: $font-header;
+  position: relative;
+  color: $color-two;
+}
+
+.section-title h1::after {
+  position: absolute;
+  content: '';
+  bottom: 0px;
+  left: 50%;
+  width: 50px;
+  height: 5px;
+  transform: translateX(-50%);
+  background: $color-four;
+  z-index: 9;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  margin: 20px 0 12px 0;
+  font-family: $font-header;
+}
+
+.section-title p {
+  font-size: 18px;
+  margin: 0 0 50px 0;
+  font-family: $font-text;
+  color: $color-two;
+  text-align: justify;
+}

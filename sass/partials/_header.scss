@@ -1,0 +1,96 @@
+/* Header */
+
+header {
+  background-color: $color-one;
+}
+
+.navigation {
+  background-color: $color-one;
+}
+
+/* Logo */
+
+header .logo a {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  z-index: 1;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Menu */
+
+.menu ul {
+  padding: 20px 0 20px 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 10px 5px 0 0;
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  color: $color-two;
+  font-family: $font-header;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: $color-two;
+  border: $color-two;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+/* Banner */
+
+.banner {
+  height: 90vh;
+  position: relative;
+  background-image: url("../images/background.jpg");
+  /*background-position: center center;*/
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Intro */
+
+.intro {
+  margin: auto;
+  max-width: 70%;
+}
+
+@media (max-width: 767px) {
+  .intro {
+    max-width: 100%;
+  }
+}
+
+.intro a {
+  font-weight: bold;
+}
+
+/*.page-title {
+  margin: 140px 0 0 0;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: $font-text;
+}
+
+.page-subtitle {
+  margin: 0;
+  font-size: 72px;
+  font-weight: 400;
+  font-family: $font-header;
+}*/
