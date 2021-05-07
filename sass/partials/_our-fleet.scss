@@ -11,7 +11,7 @@
 .our-fleet .section-title h1 {
   font-size: 36px;
   margin: 0 0 20px 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: $font-header;
   position: relative;
   color: $color-one;
 }
@@ -19,7 +19,7 @@
 .our-fleet .section-title p {
   font-size: 18px;
   margin: 0 0 50px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: $font-text;
   color: $color-one;
   text-align: justify;
 }
@@ -28,16 +28,16 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
 }
 
 .our-fleet-wrapper .fleet {
   -ms-flex: 0 0 30%;
-      flex: 0 0 30%;
+  flex: 0 0 30%;
   min-height: 300px;
   margin: 20px 0 20px 0;
   -ms-flex-direction: column;
@@ -68,7 +68,7 @@
 
 .fleet p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: $font-text;
   color: $color-six;
   text-align: justify;
   padding: 0 20px 0 20px;
