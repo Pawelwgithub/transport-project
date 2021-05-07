@@ -1,0 +1,88 @@
+/* Contact */
+
+.contact {
+  background: $color-five;
+  padding: 55px 0;
+}
+
+.contact .section-subtitle {
+  font-size: 24px;
+  margin: 50px 0 12px 0;
+  font-family: $font-header;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact .form-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact .form-wrapper .section-subtitle {
+  font-size: 24px;
+  margin: 20px 0 12px 0;
+  font-family: $font-header;
+}
+
+.contact .form-wrapper form {
+  -ms-flex: 2 0 0px;
+  flex: 2 0 0;
+  padding: 10px 10px 0 0;
+  background: inherit;
+  height: 100%;
+  position: relative;
+}
+
+.contact .form-wrapper form input, .contact .form-wrapper form textarea {
+  display: block;
+  margin: 5px;
+  width: 340px;
+  background: inherit;
+  color: $color-six;
+  font-family: $font-text;
+  font-size: 16px;
+  border-color: $color-six;
+  border-radius: 5px;
+  border-bottom-width: 3px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 100%;
+  padding: 10px;
+}
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $color-six;
+  font-family: $font-text;
+  font-size: 16px;
+  opacity: 1;
+  /* Firefox */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $color-six;
+  font-family: $font-text;
+  font-size: 16px;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $color-six;
+  font-family: $font-text;
+  font-size: 16px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $color-six;
+  font-family: $font-text;
+  font-size: 16px;
+}
