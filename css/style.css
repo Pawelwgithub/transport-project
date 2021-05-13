@@ -486,4 +486,50 @@ footer .page-footer i:hover {
   background-color: #ffffff;
   font-size: 18px;
 }
+
+/* Scroll to top */
+.scroll-to-top-icon i {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  /*background: #0097e6;*/
+  /*background: #777777;*/
+  background: #ffffff;
+  bottom: 120px;
+  right: 15px;
+  text-align: center;
+  line-height: 35px;
+  /*color: #4e4f4f;*/
+  color: #000;
+  border-radius: 50%;
+  /*border-radius: 5%;*/
+  border: #000;
+  border-width: 2px;
+  border-style: solid;
+  visibility: hidden;
+  overflow: hidden;
+  z-index: 99999999;
+  right: 30px;
+  bottom: 50px;
+  /*transition: all 0.5s ease-in-out;*/
+}
+
+.scroll-to-top-icon i:hover {
+  cursor: pointer;
+  color: #000;
+  background: #ffffff;
+  border: red;
+  border-width: 4px;
+  border-style: solid;
+  line-height: 30px;
+}
+
+/*.scroll-to-top-icon i:active {
+  background-color: #555;
+}*/
+.scroll-to-top-icon i.show {
+  visibility: visible;
+  cursor: pointer;
+  /*transition: all 0.5s ease-in-out;*/
+}
 /*# sourceMappingURL=style.css.map */
