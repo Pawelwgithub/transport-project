@@ -129,7 +129,8 @@
     top: 0;
     right: 0;
     //background: rgba(250,250,250,0.9);
-    background: $color-one;
+    //background: $color-one;
+    background: rgba(119, 119, 119, 0.8);
     height: 100%;
     width: 0%;
     transition: all 500ms cubic-bezier(0.62, 0.04, 0.3, 1.8);
