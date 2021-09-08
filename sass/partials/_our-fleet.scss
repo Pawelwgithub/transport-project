@@ -44,7 +44,7 @@
   flex-direction: column;
   background: $color-one;
   border-radius: 5px;
-  padding: 5px 5px 70px 5px;
+  padding: 5px 5px 20px 5px;
 }
 
 /*.our-fleet-wrapper .fleet:hover {
@@ -64,6 +64,10 @@
   -o-object-fit: cover;
   object-fit: cover;
   max-width: 442px;
+}
+
+.fleet .module-content {
+  display: none;
 }
 
 .fleet p {

@@ -33,3 +33,20 @@ $(function() {
     $('html, body').animate({scrollTop: 0}, 400, 'linear');
   });
 });
+
+/* Module toggle button */
+
+$('.module-toggle').on('click', function() {
+  const $btn = $(this);
+
+  $(this).prev().slideToggle(function() {
+    //this tutaj wskazuje na element zwijany
+
+    //sprawdzam czy tekst po zwinięciu/rozwinięciu jest widoczny
+    if ($(this).is(':visible')) {
+      $btn.text('Ukryj szczegóły i opis');
+    } else {
+      $btn.text('Pokaż szczegóły i opis');
+    }
+  });
+});
