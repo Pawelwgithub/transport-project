@@ -68,7 +68,6 @@
 
   .fleet img {
     width: 100%;
-    height: 30%;
   }
 
   footer {
@@ -158,11 +157,15 @@
 
 @media (max-width: 1024px) {
   .btn {
-    margin: 20px auto 0 auto;
+    margin: 10px auto 0 auto;
   }
 
   .btn-one {
     margin: 150px auto 0 auto;
+  }
+
+  .section-subtitle {
+    margin: 5px 0 5px 0;
   }
 
   header .logo a {
