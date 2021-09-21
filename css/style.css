@@ -22,7 +22,7 @@ body {
 }
 
 section {
-  padding: 55px 0;
+  padding: 35px 0;
 }
 
 .btn {
@@ -102,7 +102,7 @@ section {
 
 .section-title p {
   font-size: 18px;
-  margin: 0 0 50px 0;
+  margin: 0 0 30px 0;
   font-family: "Roboto", sans-serif;
   color: #000;
   text-align: justify;
@@ -350,12 +350,12 @@ header .logo a {
 /* Contact */
 .contact {
   background: #D6D6D6;
-  padding: 55px 0;
+  padding: 35px 0;
 }
 
 .contact .section-subtitle {
   font-size: 24px;
-  margin: 50px 0 12px 0;
+  margin: 30px 0 12px 0;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   text-align: center;
@@ -372,7 +372,7 @@ header .logo a {
 
 .contact .form-wrapper .section-subtitle {
   font-size: 24px;
-  margin: 20px 0 12px 0;
+  margin: 10px 0 12px 0;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -536,7 +536,7 @@ footer .page-footer i:hover {
 /* Media */
 @media (max-width: 767px) {
   section {
-    padding: 55px 0 20px 0;
+    padding: 35px 0 20px 0;
   }
   .btn {
     margin: 20px auto 0 auto;
@@ -601,7 +601,7 @@ footer .page-footer i:hover {
 
 @media (max-width: 768px) {
   section {
-    padding: 55px 0 20px 0;
+    padding: 35px 0 20px 0;
   }
   .btn {
     margin: 20px auto 0 auto;
@@ -647,7 +647,7 @@ footer .page-footer i:hover {
 
 @media (max-width: 896px) {
   section {
-    padding: 55px 0 20px 0;
+    padding: 35px 0 20px 0;
   }
   .btn {
     margin: 20px auto 0 auto;
