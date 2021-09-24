@@ -659,6 +659,9 @@ footer .page-footer i:hover {
     top: 15px;
     left: -15px;
   }
+  .menu a {
+    padding: 5px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -775,6 +778,7 @@ footer .page-footer i:hover {
     text-transform: uppercase;
     letter-spacing: 1.7px;
     font-family: "Roboto Condensed", sans-serif;
+    margin: 15px 5px 0 0;
   }
   .menu.media-menu ul li a {
     text-decoration: none;
