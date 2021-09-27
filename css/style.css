@@ -769,7 +769,7 @@ footer .page-footer i:hover {
     top: 15%;
     right: 25%;
     padding: 0px 30px;
-    text-align: justify;
+    text-align: center;
   }
   .menu.media-menu ul li {
     list-style: none;
@@ -778,7 +778,7 @@ footer .page-footer i:hover {
     text-transform: uppercase;
     letter-spacing: 1.7px;
     font-family: "Roboto Condensed", sans-serif;
-    margin: 15px 5px 0 0;
+    margin: 20px 5px 0 0;
   }
   .menu.media-menu ul li a {
     text-decoration: none;
