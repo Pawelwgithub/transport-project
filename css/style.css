@@ -263,10 +263,29 @@ header .logo a {
   transition: 0s;
 }
 
-.services p {
-  color: #000;
+.services .module-content {
+  display: block;
+  text-align: justify;
+  margin: 25px;
+}
+
+/*.services p {
+  color: $color-two;
   margin: 25px;
   text-align: justify;
+}*/
+.description {
+  height: 71px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*.description.show {
+  height: 71px;
+}*/
+.description.show {
+  height: 241px;
 }
 
 /* Our fleet */

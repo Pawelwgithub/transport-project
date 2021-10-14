@@ -56,8 +56,32 @@
   transition: 0s;
 }
 
-.services p {
+.services .module-content {
+  display: block;
+  text-align: justify;
+  margin: 25px;
+}
+
+/*.services p {
   color: $color-two;
   margin: 25px;
   text-align: justify;
+}*/
+
+.description {
+  //height: 241px;
+  height: 71px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  //margin: 25px;
+  //text-align: justify;
+}
+
+/*.description.show {
+  height: 71px;
+}*/
+
+.description.show {
+  height: 241px;
 }
