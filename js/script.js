@@ -74,16 +74,16 @@ $(function() {
   });*/
 
   $('.toggle').on('click', function() {
-    const $button = $(this);
+    //const $button = $(this);
 
     //$('span').toggleClass(function() {
     $('span').toggleClass('description');
 
-    if ($('span').is(':visible')) {
+    /*if ($('span').is(':visible')) {
       $button.text('Zwiń opis');
     } else {
       $button.text('Rozwiń cały opis');
-    }
+    }*/
     //});
   });
 });
