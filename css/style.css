@@ -349,6 +349,7 @@ header .logo a {
 }
 
 .fleet img {
+  -o-object-fit: cover;
   object-fit: cover;
   max-width: 442px;
 }
@@ -847,4 +848,5 @@ footer .page-footer i:hover {
     }
   }
 }
+
 /*# sourceMappingURL=style.css.map */
