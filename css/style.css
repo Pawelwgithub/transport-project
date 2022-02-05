@@ -264,7 +264,7 @@ header .logo a {
 }
 
 .services .module-content {
-  display: block;
+  display: none;
   text-align: justify;
   margin: 25px;
 }
@@ -274,20 +274,15 @@ header .logo a {
   margin: 25px;
   text-align: justify;
 }*/
-.description {
+/*.description {
+  //height: 241px;
   height: 71px;
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-/*.description.show {
-  height: 71px;
+  //margin: 25px;
+  //text-align: justify;
 }*/
-.description.show {
-  height: 241px;
-}
-
 /* Our fleet */
 .our-fleet {
   background-image: url("../images/background.jpg");

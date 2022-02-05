@@ -57,7 +57,7 @@
 }
 
 .services .module-content {
-  display: block;
+  display: none;
   text-align: justify;
   margin: 25px;
 }
@@ -68,7 +68,7 @@
   text-align: justify;
 }*/
 
-.description {
+/*.description {
   //height: 241px;
   height: 71px;
   display: block;
@@ -76,12 +76,4 @@
   text-overflow: ellipsis;
   //margin: 25px;
   //text-align: justify;
-}
-
-/*.description.show {
-  height: 71px;
 }*/
-
-.description.show {
-  height: 241px;
-}

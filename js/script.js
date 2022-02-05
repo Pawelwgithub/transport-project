@@ -53,37 +53,9 @@ $('.module-toggle').on('click', function() {
 
 /* Toggle button */
 
-$(function() {
-
-  /*$('.toggle').on('click', function() {
-    const $button = $(this);
-    const $description = $('.description');
-
-    $(this).prev().slideToggle(function() {
-      //this tutaj wskazuje na element zwijany
-
-      //sprawdzam czy tekst po zwinięciu/rozwinięciu jest widoczny
-      if ($(this).is(':visible')& $('.description').is(':visible')) {
-        $button.text('Zwiń');
-        $description.addClass('show');
-      } else {
-        $button.text('Rozwiń cały opis');
-        $description.removeClass('show');
-      }
-    });
-  });*/
+/*$(function() {
 
   $('.toggle').on('click', function() {
-    //const $button = $(this);
-
-    //$('span').toggleClass(function() {
     $('span').toggleClass('description');
-
-    /*if ($('span').is(':visible')) {
-      $button.text('Zwiń opis');
-    } else {
-      $button.text('Rozwiń cały opis');
-    }*/
-    //});
   });
-});
+});*/
