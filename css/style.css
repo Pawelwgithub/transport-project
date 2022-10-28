@@ -50,7 +50,7 @@ section {
   border-color: #ffffff;
   background-color: transparent;
   background-image: linear-gradient(90deg, transparent 50%, transparent 50%);
-  margin: 290px auto 0 auto;
+  margin: 50px auto 0 auto;
   border-style: dashed;
 }
 
@@ -178,6 +178,7 @@ header .logo a {
 .intro {
   margin: auto;
   max-width: 70%;
+  padding: 100px 0px;
 }
 
 @media (max-width: 767px) {
@@ -190,19 +191,22 @@ header .logo a {
   font-weight: bold;
 }
 
-/*.page-title {
-  margin: 140px 0 0 0;
-  font-size: 40px;
-  font-weight: 700;
-  font-family: $font-text;
+.page-title {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Sarpanch", sans-serif;
+  color: #ffffff;
 }
 
 .page-subtitle {
   margin: 0;
-  font-size: 72px;
+  font-size: 30px;
   font-weight: 400;
-  font-family: $font-header;
-}*/
+  font-family: "Sarpanch", sans-serif;
+  color: #ffffff;
+}
+
 /* About-us */
 .about-us {
   background-color: #f7f7f7;
