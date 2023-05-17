@@ -209,7 +209,7 @@ header .logo a {
   font-weight: 400;
   font-family: "Sarpanch", sans-serif;
   color: #ffffff;
-  padding: 100px 0px 0px 0px;
+  padding: 125px 0px 0px 0px;
 }
 
 .page-subtitle {
@@ -835,9 +835,9 @@ footer .page-footer i:hover {
     margin: 0;
     position: absolute;
     top: 13%;
-    right: 30%;
+    right: 42%;
     padding: 0px 60px;
-    text-align: justify;
+    text-align: center;
   }
   .menu.media-menu ul li {
     list-style: none;
