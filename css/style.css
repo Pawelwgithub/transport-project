@@ -522,7 +522,7 @@ footer .page-footer {
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0 5px 0;
+  padding: 0px 15px;
 }
 
 footer .page-footer p {
@@ -556,7 +556,7 @@ footer .page-footer i:hover {
   border-color: #ff0000;
   border-width: 4px;
   background-color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* Scroll to top */
